@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+}
+
+.container{
+    height:  100vh;
+    width: 100%;
+    background-image: url(media/image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative
+    ;
+}
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width:200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    text-decoration:none;
+    color :white;
+    font-size: 15px;
+}
+
+.navbar ul li a:hover {
+    text-decoration:none;
+    color :black;
+    font-size: 15px;
+}
+
+
+.navbar ul li  {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+
+.leftcol{
+    margin-left: 70px ;
+
+}
+
+.leftcol h1{
+    font-size: 80px;
+    color: white;
+    line-height: 110px;
+    float: left;
+
+}
+
+.rightcol{
+    float:right;
+    padding-top: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+    position:relative;
+    display:flex;
+    align-items: center;
+}
+
+.rightcol p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Secular One', sans-serif;
+}
+.rightcol img{
+    margin-right: 50px;
+    position: relative;
+    width: 200px;
+    align-self:center;
+
+}
+
+#musiclist ul li {
+    margin-right: 40px;
+    position:relative;
+    display:block;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+#musiclist ul li p{
+    border: 0.5px;
+    
+}
